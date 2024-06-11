@@ -108,6 +108,8 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "https://henon-fx-tracker-app-679990af8b3b.herokuapp.com",
     "https://elaborate-pixie-35503e.netlify.app/",
+    "https://henon-foreign-exchange-tracker-8537b9197eeb.herokuapp.com/"
+    
 ]
 
 # Internationalization
