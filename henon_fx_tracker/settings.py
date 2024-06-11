@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-+ju)#)owvh-a!n(qjw%5u4lo%o74uuvk*1t305hu870a&$lx(*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://henon-fx-tracker-app-679990af8b3b.herokuapp.com"]
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
