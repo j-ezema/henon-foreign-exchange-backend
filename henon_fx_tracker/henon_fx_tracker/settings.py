@@ -29,7 +29,7 @@ DEBUG = config('DEBUG', default=False, cast=bool)
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-ALLOWED_HOSTS = ['https://henon-foreign-exchange-tracker-8537b9197eeb.herokuapp.com/', 'https://henon-fx-tracker-app-679990af8b3b.herokuapp.com/']
+ALLOWED_HOSTS = ['*']
 
 STATIC_URL = 'static/'
 
@@ -126,6 +126,8 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 
 USE_TZ = True
+
+WSGI_APPLICATION = 'henon_fx_tracker.wsgi.application'
 
 
 # Static files (CSS, JavaScript, Images)
