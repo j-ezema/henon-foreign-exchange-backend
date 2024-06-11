@@ -106,7 +106,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "https://henon-fx-tracker-app-679990af8b3b.herokuapp.com"
+    "https://henon-fx-tracker-app-679990af8b3b.herokuapp.com",
+    "https://elaborate-pixie-35503e.netlify.app/",
 ]
 
 # Internationalization
