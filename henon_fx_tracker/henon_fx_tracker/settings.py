@@ -29,7 +29,7 @@ DEBUG = config('DEBUG', default=False, cast=bool)
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-ALLOWED_HOSTS = ['https://voluble-frangipane-7494bf.netlify.app/']
+ALLOWED_HOSTS = ['https://henon-foreign-exchange-tracker-8537b9197eeb.herokuapp.com/', 'https://henon-fx-tracker-app-679990af8b3b.herokuapp.com/']
 
 STATIC_URL = 'static/'
 
