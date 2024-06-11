@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-+ju)#)owvh-a!n(qjw%5u4lo%o74uuvk*1t305hu870a&$lx(*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ["henon-fx-tracker-app-679990af8b3b.herokuapp.com"]
+ALLOWED_HOSTS = ["https://henon-fx-tracker-app-679990af8b3b.herokuapp.com"]
 
 
 # Application definition
@@ -106,7 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "henon-fx-tracker-app-679990af8b3b.herokuapp.com"
+    "https://henon-fx-tracker-app-679990af8b3b.herokuapp.com"
 ]
 
 # Internationalization
