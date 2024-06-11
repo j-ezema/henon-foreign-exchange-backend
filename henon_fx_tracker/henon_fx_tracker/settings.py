@@ -113,7 +113,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "https://voluble-frangipane-7494bf.netlify.app"
+    "https://henon-foreign-exchange-tracker-8537b9197eeb.herokuapp.com"
 ]
 
 # Internationalization
